@@ -2,23 +2,17 @@ import unittest
 
 
 def is_prime(number):
-    pass
-
-
-'''
     for element in range (2,int(number + 1/2)):
         if number % element == 0:
             return False
     return True
-'''
+
 
 def next_prime(number):
-    pass
-'''
     while True:
         number += 1
         if is_prime(number): return (number)
- '''           
+ 
 
     
 
