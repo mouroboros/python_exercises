@@ -20,7 +20,13 @@ class LeapTestCase(unittest.TestCase):
 #The year is also evenly divisible by 400. Then it is a leap year.
 
 def leap(year) :
-    pass
+    if year % 4 == 0 :
+        if year % 100 == 0 :
+            if year % 400 == 0 :
+                return True
+            else : return False
+        else : return True
+    else : return False
     
 
 unittest.main()

@@ -1,6 +1,6 @@
 # Spelling Correction
 
-Note: The following is based on Peter Norvig’s online blog post. However please do not just grab the code. The main point of the exercise is to get used to text processing in Python. I have intentionally not linked to the blog but will do so later in the term.
+Note: The following is based on Peter Norvig’s online blog post. However please do not just grab the code. The main point of the exercise is to get used to text processing in Python. I have intentionally not linked to the blog but will do so later.
 
 If you are new to Python - use this as an opportunity to slowly learn. It will be a challenge at first but we are sure you will learn very quickly.
 
@@ -8,7 +8,7 @@ If you are new to Python - use this as an opportunity to slowly learn. It will b
 
 Spelling Correction is a common task for most applications which deal with text. For example, most search engines will correct queries containing non-valid words. The best spelling correction algorithms use sophisticated models of common spelling errors. However we can achieve much using just lots of data. 
 
-Using lots of data for spelling correction
+###Using lots of data for spelling correction
 
 Suppose we have a misspelt word. It's likely that the word is only wrong by 1 or possibly two typos. Even so there are potentially many words it could be. For instance if I type "lates" then I might mean "late", "latest" or "lattes" etc. In such cases we try to find the correction c out of all the possible corrections  that maximizes the probability that c is the intended correction, given the original word w:
 
